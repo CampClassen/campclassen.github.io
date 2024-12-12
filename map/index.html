@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camp Classen Map</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div id="map">
+    <button id="zoom-to-cabins">Zoom to Cabins</button>
+  </div>
+
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <span id="modal-title">Title</span>
+        <span class="modal-close" id="modal-close">&times;</span>
+      </div>
+
+      <div class="modal-carousel">
+        <div class="carousel-images" id="carousel-images">
+        </div></div>
+        <div class="carousel-thumbnails" id="carousel-thumbnails"></div>
+        <div class="modal-description" id="modal-description"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="module" src="scripts/map.js"></script>
+</body>
+</html>

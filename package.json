@@ -1,0 +1,14 @@
+{
+  "name": "classen-map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Haynes",
+  "description": "",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet.browser.print": "^2.0.2"
+  }
+}
